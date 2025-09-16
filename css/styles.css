@@ -512,3 +512,28 @@ img {
 .footer-social-list {
   gap: 16px;
 }
+
+/* ----Modal---- */
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+
+.modal {
+  width: 408px;
+  min-height: 584px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal-close-icon {
+  fill: #2e2f42;
+}

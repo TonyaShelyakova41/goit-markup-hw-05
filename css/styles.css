@@ -668,7 +668,7 @@ img {
   padding-left: 38px;
   padding-right: 16px;
   outline: transparent;
-  transition: 0.3s border-color ease-in-out;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-input:focus {
@@ -698,7 +698,7 @@ img {
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
-  transition: 0.3s fill ease-in-out;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .input-wrapper {
@@ -707,6 +707,7 @@ img {
 
 .modal-textarea {
   width: 100%;
+  height: 120px;
   resize: none;
   background-color: transparent;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -714,10 +715,10 @@ img {
   padding: 8px 16px;
   outline: transparent;
   font-family: inherit;
-  font-size: 14px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
   transition: 0.3s border-color ease-in-out;
 }
 
@@ -728,7 +729,7 @@ img {
 .modal-check:checked + .modal-check-label .modal-check-box {
   background-color: #404bbf;
   border: none;
-  fill: #ffffff;
+  fill: #f4f4fd;
 }
 
 .modal-check-label {

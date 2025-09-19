@@ -740,6 +740,7 @@ img {
   color: #8e8f99;
   display: flex;
   align-items: center;
+  margin-bottom: 4px;
 }
 
 a {
@@ -788,10 +789,6 @@ a {
 .modal-button:hover,
 .modal-button:focus {
   background-color: #404bbf;
-}
-
-.modal-input-label {
-  margin-bottom: 16px;
 }
 
 .modal-check-label {

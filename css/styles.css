@@ -796,3 +796,11 @@ a {
   gap: 8px;
   margin-bottom: 24px;
 }
+
+.modal-field-check {
+  margin-bottom: 24px;
+}
+
+.modal-field-comment {
+  margin-bottom: 16px;
+}

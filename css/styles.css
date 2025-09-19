@@ -689,7 +689,7 @@ img {
 }
 
 .modal-field {
-  margin-bottom: 24px;
+  margin-bottom: 8px;
 }
 
 .modal-icon {
@@ -787,4 +787,8 @@ a {
 .modal-button:hover,
 .modal-button:focus {
   background-color: #404bbf;
+}
+
+.modal-input-label {
+  margin-bottom: 16px;
 }

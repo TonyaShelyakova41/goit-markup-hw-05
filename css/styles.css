@@ -629,7 +629,7 @@ img {
 .modal-close:hover,
 .modal-close:focus {
   background-color: #404bbf;
-  border-radius: none;
+  border-color: #404bbf;
 }
 .modal-close:hover .modal-close-icon,
 .modal-close:focus .modal-close-icon {

@@ -522,9 +522,14 @@ img {
   gap: 24px;
 }
 .footer-input {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #ffffff;
   min-width: 264px;
   height: 40px;
-  background-color: #2e2f42;
+  background-color: transparent;
   border: 1px solid #fff;
   border-radius: 4px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
@@ -537,7 +542,7 @@ img {
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
-  color: #fff;
+  color: #ffffff;
 }
 
 .footer-form-btn {
@@ -556,11 +561,12 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 16px;
+  border: none;
 }
 
 .footer-btn-icon {
   fill: #fff;
+  margin-left: 16px;
 }
 .footer-form-btn:hover,
 .footer-form-btn:focus {
@@ -602,6 +608,7 @@ img {
   padding-left: 24px;
   padding-right: 24px;
   padding-top: 72px;
+  padding-bottom: 72px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -622,15 +629,21 @@ img {
   width: 24px;
   height: 24px;
   background-color: #e7e9fc;
-  stroke-width: 1px;
-  stroke: rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close:hover,
 .modal-close:focus {
   background-color: #404bbf;
-  border-color: #404bbf;
+  border: none;
 }
+
 .modal-close:hover .modal-close-icon,
 .modal-close:focus .modal-close-icon {
   fill: #ffffff;

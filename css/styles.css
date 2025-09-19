@@ -713,6 +713,7 @@ img {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   padding: 8px 16px;
+  margin-bottom: 4px;
   outline: transparent;
   font-family: inherit;
   font-size: 12px;
@@ -791,4 +792,10 @@ a {
 
 .modal-input-label {
   margin-bottom: 16px;
+}
+
+.modal-check-label {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 24px;
 }

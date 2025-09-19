@@ -680,7 +680,6 @@ img {
 }
 .modal-input-label {
   display: block;
-  flex-direction: column;
   margin-bottom: 4px;
   font-weight: 400;
   font-size: 12px;

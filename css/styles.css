@@ -792,7 +792,6 @@ a {
 }
 
 .modal-check-label {
-  display: flex;
   gap: 8px;
   margin-bottom: 24px;
 }

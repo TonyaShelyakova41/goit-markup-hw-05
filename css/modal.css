@@ -60,6 +60,7 @@
 .modal-btn-icon {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: color;
+  color: #2e2f42;
 }
 .modal-btn:hover,
 .modal-btn:focus {
@@ -85,6 +86,7 @@
 
   flex-direction: column;
   gap: 4px;
+  margin-bottom: 8px;
 }
 .modal-form-label {
   font-size: 12px;
@@ -130,14 +132,13 @@
   color: #4d5ae5;
 }
 
-.modal-form-label {
+.modal-form-label.comment {
 }
 .modal-form-textarea {
   width: 100%;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   padding: 8px 16px;
-  width: 360px;
   min-height: 120px;
   columns: 7;
   font-size: 12px;
@@ -161,7 +162,7 @@
   height: 16px;
   margin-right: 8px;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: border-color;
+  transition-property: border-color, background-color;
 }
 .modal-form-checkbox-icon {
   color: #f4f4fd;
@@ -180,11 +181,12 @@
 }
 
 .modal-form-agreement {
+  margin-top: 8px;
   margin-bottom: 24px;
 }
 
 .modal-footer-link {
-  line-height: 1.33333;
+  line-height: 1.17;
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: #4d5ae5;
